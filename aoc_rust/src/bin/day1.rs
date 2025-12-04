@@ -47,7 +47,8 @@ fn main() -> Result<()> {
 
     let count = combinations.iter().filter(|&&x| x == 0).count();
 
-    println!("{}", total_crossings);
+    println!("Part 1: {}", count);
+    println!("Part 2: {}", total_crossings);
 
     Ok(())
 }
